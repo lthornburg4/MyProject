@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+    <head>
+        <title>About Us</title>
+        <!--author: Laura Thornburg
+        Date: 9/2/24-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/main.css">
+    </head>
+    
+    <body>
+<h1 id="Heading1" class="">Contact Us</h1>
+
+<p>
+    Thank you for your interest in more information about "The Project".  Please complete the form below so we can provide you additional information.
+</p>
+
+<p>
+    We will send you information within the next week.  Thank you again for your interest in "The Project"!
+</p>
+
+  <div class="formContainer">
+      <div>
+       <form action="getAddress" method="post">          
+           <label>Customer Name:</label><br>
+                <input type="text" id="custName" name="customer"
+                       value=""/><br>
+                <label>Mailing Address:</label><br>
+                <input type="text" id="mail" name="mailAddress"
+                       value=""/><br>
+                <label>City:</label><br>
+                <input type="text" id="city" name="cityAddress"
+                       value=""/><br>
+                <label>State:</label><br>
+                <input type="text" id="state" name="stateAddress"
+                       value=""/><br>
+                <label>Zip code:</label><br>
+                <input type="text" id="zipcode" name="zipAddress"
+                       value=""/><br>
+                <label>E-Mail:</label><br>
+                <input type="text" id="email" name="email"
+                       value=""/><br>
+                <label>Phone:</label><br>
+                <input type="text" id="phone" name="phone"
+                       value=""/><br>
+                
+                <input type="submit" value="submit">
+                       <br>
+            </form>
+      </div>
+      
+      <div>
+          <label for="contactType">Pick a method for us to contact you:</label>
+          <select name="contactType" id="contactType">
+              <option value="mail">Mail</option>
+              <option value="e_mail">E-Mail</option>
+              <option value="phone">Phone</option>
+              <option value="directMessage">Direct Message</option>
+          </select>
+      </div>
+      
+        <div>
+          <form>
+              <input type="radio" id="web" name="found_how" value="web">
+              <label for="Web">Web</label><br>
+              <input type="radio" id="facebook" name="found_how" value="facebook">
+              <label for="feb">Facebook</label><br>
+              <input type="radio" id="instagram" name="found_how" value="instagram">
+              <label for="instagram">Instagram</label><br>   
+          </form>
+      </div>
+      
+        </div>
+      
+
+</body>
+</html>

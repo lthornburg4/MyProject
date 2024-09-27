@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Project</title>
+        <!--author: Laura Thornburg
+        Date: 9/2/24-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <h1>Welcome to "The Project" page!!!  This is for CIS 175</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="supplementPages/aboutUs.html">About Us</a></li>
+                <li><a href="supplementPages/contactUsForm.html">Contact Us</a></li>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">W3 Schools HTML Help</a></li>
+                <li><a href="https://www.dmacc.edu/pathways/it/index.html" target="_blank">Information Technology at DMACC</a></li>
+                <li><a href="https://tomcat.apache.org/download-10.cgi" target="_blank">Download Apache Tomcat</a></li>
+            </ul>
+        </nav>
+        <p>Welcome to The Project page!! This page is designed to contain information for the first web application project in Java II!</p>
+        
+        <div class="columncontainer">
+        <div>      
+            <h2>Images</h2>
+            <img src="images/TechnologyFiberImage.jpeg" alt="Picture of fiber" style="width:400px; height:200px;"> 
+        </div>
+            
+        <div>
+            <h2>Students</h2>
+            <table>
+            <tr>
+                <th>Student Name</th>
+                <th>Major</th>
+                <th>Expected Graduation Date</th>
+            </tr>
+            
+            <tr>
+                <td>Laura Thornburg</td>
+                <td>Java Application Developer Certificate of Specialization</td>
+                <td>December 2024</td>
+            </tr>
+            
+            <tr>
+            <td>Sally Smith</td>
+            <td>Computer Information Systems AAS</td>
+            <td>May 2025</td>
+            </tr>
+            
+            <tr>
+                <td>Michael Morris</td>
+                <td>Web Development AAS</td>
+                <td>May 2025</td>
+            </tr>
+            
+            </table>  
+        </div>
+        
+        </div>
+        <a href="myServlet">myServlet Page </a>
+        <h2>Submit form to Servlet</h2>
+        <form action="myServlet" method="post">
+            <label>Name:</label><br>
+                <input type="text" id="userName" name="userName"
+                       value=""/><br>
+            <label>E-Mail:</label><br>
+                <input type="text" id="eMail" name="eMail"
+                       value=""/><br>
+                <label>Phone:</label><br>
+                <input type="text" id="phoneNum" name="phoneNum"
+                       value=""/><br>
+                <br>
+                <p>Contact Me??</P>
+                <div>
+              <label for="Yes">Yes</label>
+              <input type="checkbox" id="how_contact" name="choice" value="Yes, Contact Me">
+              <br>
+              <label for="No">No  </label>
+              <input type="checkbox" id="how_contact" name="choice" value="No, Don't Contact Me"> 
+              </div>
+              <br>
+              <input type="submit" value="Submit">
+        </form>
+       
+        <br>     
+        <p>
+        There is a lot of information to be found in these pages.  As a student, these are some of the links that have been so helpful to me to get help with projects!  Hope they help you also!    
+        </p>
+        
+        </body>
+</html>
